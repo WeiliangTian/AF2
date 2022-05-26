@@ -1,18 +1,18 @@
-Log in: `ssh netID@dcc-login.oit.duke.edu`
+Log in: `ssh <netID>@dcc-login.oit.duke.edu`
 
 ### Linux Basic
 Go back: `cd ..`  
 Go to certain directory: `cd /hpc/group/soderlinglab`  
 List all files: `ls`  
-View a file: `cat run_alphafold.sh`  
-Delete a file: `rm test.sh` (irrevocable)
+View a file: `cat <FileName>`  
+Delete a file: `rm <FileName>` (irrevocable)
 
 ### Make edition on a file
-1.	Go into the file: `vim run_alphafold.sh`  
+1.	Go into the file: `vim <FileName>'
 2.	Begin edition: `i`
 3.	Change the text
 4.	Stop changing: `esc` on keyboard
-5.	Save and quit: `:wq` (semicolon is to tell the program what to do; w is to save; q is to quit)
+5.	Save and quit: `:wq` (semicolon is to tell the program what to do; w is to save; q is to quit) / Quit directly: `q!`
 
 ### Input the sequence
 1.	Go to the directory of sequence: `cd  /hpc/group/soderlinglab/alphafold/sequence`
