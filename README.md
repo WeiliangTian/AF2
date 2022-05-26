@@ -16,7 +16,7 @@ Delete a file: `rm <FileName>` (irrevocable)
 
 ### Input the sequence
 1.	Go to the directory of sequence: `cd  /hpc/group/soderlinglab/alphafold/sequence`
-2.	Create a txt or fasta file: `vim <Sequence.txt> / <Sequence.fasta>`
+2.	Create a txt or fasta file: `vim <Sequence.txt>` or `vim <Sequence.fasta>`
 3.	Input the fasta: first line begins with >; second line is the protein sequence.
 
 For monomer:
