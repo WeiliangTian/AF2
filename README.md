@@ -8,7 +8,7 @@ View a file: `cat <FileName>`
 Delete a file: `rm <FileName>` (irrevocable)
 
 ### Make edition on a file
-1.	Go into the file: `vim <FileName>'
+1.	Go into the file: `vim <FileName>`
 2.	Begin edition: `i`
 3.	Change the text
 4.	Stop changing: `esc` on keyboard
@@ -16,12 +16,20 @@ Delete a file: `rm <FileName>` (irrevocable)
 
 ### Input the sequence
 1.	Go to the directory of sequence: `cd  /hpc/group/soderlinglab/alphafold/sequence`
-2.	Create a txt or fasta file: `vim sequence_name.txt / sequence_name.fasta`
+2.	Create a txt or fasta file: `vim <Sequence.txt> / <Sequence.fasta>`
 3.	Input the fasta: first line begins with >; second line is the protein sequence.
 
+For monomer:
 ```
 >T1084
 MAAHKGAEHHHKAAEHHEQAAKHHHAAAEHHEKGEHEQAAHHADTAYAHHKHAEEHAAQAAKHDAEHHAPKPH
+```
+For multimer: 
+```
+>T1084
+MAAHKGAEHHHKAAEHHEQAAKHHHAAAEHHEKGEHEQAAHHADTAYAHHKHAEEHAAQAAKHDAEHHAPKPH
+>T1083
+MAAHKGAEHHHKAAEHHEQAAKHHHAAAEHHEKGEHEQAAH
 ```
 
 4.	Save and quit: `:wq`
