@@ -1,20 +1,20 @@
 Log in: `ssh netID@dcc-login.oit.duke.edu`
 
-###Linux Basic
+### Linux Basic
 Go back: `cd ..`  
 Go to certain directory: `cd /hpc/group/soderlinglab`  
 List all files: `ls`  
 View a file: `cat run_alphafold.sh`  
 Delete a file: `rm test.sh` (irrevocable)
 
-###Make edition on a file
+### Make edition on a file
 1.	Go into the file: `vim run_alphafold.sh`  
 2.	Begin edition: `i`
 3.	Change the text
 4.	Stop changing: `esc` on keyboard
 5.	Save and quit: `:wq` (semicolon is to tell the program what to do; w is to save; q is to quit)
 
-###Input the sequence
+### Input the sequence
 1.	Go to the directory of sequence: `cd  /hpc/group/soderlinglab/alphafold/sequence`
 2.	Create a txt or fasta file: `vim sequence_name.txt / sequence_name.fasta`
 3.	Input the fasta: first line begins with >; second line is the protein sequence.
@@ -26,7 +26,7 @@ MAAHKGAEHHHKAAEHHEQAAKHHHAAAEHHEKGEHEQAAHHADTAYAHHKHAEEHAAQAAKHDAEHHAPKPH
 
 4.	Save and quit: `:wq`
 
-###Change the Code for Alphafold 2
+### Change the Code for Alphafold 2
 
 ```
 #!/bin/bash
