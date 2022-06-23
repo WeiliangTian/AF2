@@ -5,7 +5,7 @@
 Sequence ID could be found in Ensembl website. For example, the ID for SCN2A in mouse is `CCDS38130` (CCDS ID) or `ENSMUST00000028377.14` (Transcript ID)  
    (2) Change the donor sequence for +0 +1 +2  
    (3) Change the length requirement for intron  
-   (4) Name the folder
+   (4) Name the folder 
 
 ### 2. Run API to List the Mutants
 1. Run the code for API: `python3 sequence_list.py`
