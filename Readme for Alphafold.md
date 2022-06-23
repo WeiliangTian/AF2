@@ -4,6 +4,7 @@
 
 ```commandline
 # Example
+
 vim test_monomer.fasta
 ```
 3. Input the fasta: first line begins with >; second line is the protein sequence.
