@@ -1,6 +1,6 @@
 Log in: `ssh <netID>@dcc-login.oit.duke.edu`
 
-### Basic Linux Commends
+### Basic Linux Commands
 Go to parent directory: `cd ..`  
 Go to certain directory: `cd /hpc/group/soderlinglab`  
 List all files: `ls`  
