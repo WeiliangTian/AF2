@@ -39,4 +39,4 @@ Submit the job: `sbatch af2_monomer.sh` or `sbatch af2_multimer.sh`
 Check the status: `squeue -u {netID}` 
 
 ### 4. View the result
-When finishing the prediction, the system will send an e-mail to the assigned e-mail address, the results can be downloaded to personal computer through Filezilla.
+When finishing the prediction, the system will send an e-mail to the assigned e-mail address, the results can be downloaded to personal computer through Filezilla for mac or WinSCP for windows.
